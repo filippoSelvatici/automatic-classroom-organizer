@@ -1,0 +1,9 @@
+# In this way it doesn't push files of bin and obj folders
+bin/*
+obj/*
+data/*.csv
+# Added .gitignore in bin and obj folders because we don't want
+# them to be empty (because it would not push them on github) so
+# we say to push only .gitignore files 
+!bin/.gitignore
+!obj/.gitignore
