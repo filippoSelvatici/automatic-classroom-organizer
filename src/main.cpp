@@ -10,7 +10,7 @@
 #include <utility>
 #include <vector>
 
-#include "automatic_classroom_creator.h"
+#include "automatic_classroom_organizer.h"
 #include "evaluation.h"
 #include "input.h"
 #include "rapidcsv.h"

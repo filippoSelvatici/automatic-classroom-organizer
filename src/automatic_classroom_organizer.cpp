@@ -7,7 +7,7 @@
 #include <utility>
 #include <vector>
 
-#include "automatic_classroom_creator.h"
+#include "automatic_classroom_organizer.h"
 #include "student.h"
 
 void assign_color(std::vector<student>& students_data, std::vector<std::vector<int> >& graph,

@@ -4,7 +4,7 @@ lint:
 obj/%.o: src/%.cpp
 	g++ $< -c -o $@
 
-exe: obj/input.o obj/student.o obj/main.o obj/evaluation.o obj/automatic_classroom_creator.o
+exe: obj/input.o obj/student.o obj/main.o obj/evaluation.o obj/automatic_classroom_organizer.o
 	g++ -o bin/$@ $^
 # to make it automatic: 
 # https://stackoverflow.com/questions/2908057/can-i-compile-all-cpp-files-in-src-to-os-in-obj-then-link-to-binary-in
